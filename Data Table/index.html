@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Data</title>
+</head>
+<body>
+     
+    <form id="student-data">
+
+        <input type="text" placeholder="Enter Full Name" id="name-1">
+        <input type="number" placeholder="Enter Number" id="num">
+        <input type="text" placeholder="Enter Marks" id="mark">
+        <input type="submit" value="Add">
+        <button id="delet-all" type="button">Delete All</button>
+        <hr>
+        <table border="1px solid black" cellspacing="10px" cellpadding="10px">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Number</th>
+                    <th>Marks</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+
+            </tbody>
+        </table>
+    </form>
+           
+</body>
+<script src="./index.js"></script>
+</html>
